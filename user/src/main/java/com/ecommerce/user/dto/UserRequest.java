@@ -1,15 +1,12 @@
-package com.ecommerce.dto;
+package com.ecommerce.user.dto;
 
-import com.ecommerce.models.UserRole;
 import lombok.Data;
 
 @Data
-public class UserResponse {
-    private String id;
+public class UserRequest {
     private String firstName;
     private String lastName;
     private String email;
     private String phone;
-    private UserRole role;
     private AddressDTO address;
 }
